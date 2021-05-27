@@ -10,6 +10,6 @@ if (age < 18) {
     document.getElementById("printer").innerHTML= "Il prezzo del biglietto selezionato è: " + (price * 60 /100).toFixed(2) + " €"
 };
 
-var d = new Date ();
+var d = new Date();
 
-document.getElementById("notes").innerHTML= "Questa prenotazione ha una validità di " + Math.floor((Math.random() * 100) +1) + " giorni";
+document.getElementById("notes").innerHTML= "Questa prenotazione ha una validità di " + Math.floor((Math.random() * 100) +1) + " giorni a partire da oggi, " + d;
