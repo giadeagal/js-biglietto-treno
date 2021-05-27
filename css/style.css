@@ -4,12 +4,15 @@ body {
 }
 
 .container {
-    height: calc(100vh - 10rem);
+    height: calc(100vh - 40rem);
     width: 100%;
     text-align: center;
 }
 
 #printer {
-    padding-top: 10rem
+    padding-top: 10rem;
 }
 
+#notes {
+    padding-top: 30rem;
+}
