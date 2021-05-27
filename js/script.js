@@ -3,4 +3,7 @@
 // L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo).
 // Questo richiederà un minimo di ricerca.
 
-document.getElementById("printer").innerHTML= "Hello World!"
+var age = parseInt(prompt("Inserisci la tua età"));
+var journey = parseInt(prompt("Inserisci la lunghezza del tuo tragitto in chilometri"));
+var price = (journey * 0.21);
+document.getElementById("printer").innerHTML= "Il prezzo del biglietto selezionato è " + price.toFixed(2) + " €";
